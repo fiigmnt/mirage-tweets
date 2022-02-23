@@ -91,6 +91,11 @@ const addPostToNotion = async (tweet: Tweet) => {
         url: {
           url: tweet.url,
         },
+        date: {
+          date: {
+            start: new Date().toISOString(),
+          },
+        },
       },
     });
     console.log(`---------- ENTRY ADDED -----------`);
