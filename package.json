@@ -9,7 +9,6 @@
   "author": "fiigmnt",
   "license": "MIT",
   "scripts": {
-    "dev": "npx ts-node source/index.ts",
     "build": "npx tsc",
     "start": "npx tsc && node ./build/index.js"
   },
